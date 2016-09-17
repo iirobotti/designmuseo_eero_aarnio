@@ -478,6 +478,21 @@ void draw() {
 
 
 
+  pushMatrix(); // Laura
+  fill(125, 111, 255);
+  translate(-800, 0, 0); 
+  rotateY(r);
+  rotateZ(r);
+  sphere(50);
+  translate(40, 0, 0);
+  sphere(35);
+  translate(40, 0, 0);
+  sphere(35);
+  fill(255, 0, 0); 
+  translate(0,15,20);
+  sphere(31);
+  popMatrix();
+
 
 
 
