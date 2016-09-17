@@ -494,6 +494,24 @@ void draw() {
   popMatrix();
 
 
+ pushMatrix(); // Joone
+  translate(700, 0, 0);
+  rotateY(r);
+  fill(45, 255, 57);
+  box(100);
+  fill(250, 240, 240);
+  translate(0, 0, 0);
+  fill(249, 177, 0);
+  sphere(120);
+  fill(250, 250, 250);
+  translate(200, 150, 5);
+  fill(0, 0, 250);
+  sphere(50);
+  translate(200, 150, 5);
+  fill(250, 250, 250);
+  rotateY(r);
+  sphere(10);
+  popMatrix();
 
 
   r = r+0.005;
