@@ -14,6 +14,36 @@ translate(width/2, height/2);
 scale(0.6);
 
 
+pushMatrix(); // TÄSTÄ ALKAA Jirin MUOTO/PALIKKA
+  fill(255, 180, 90);
+  translate(500, 50, -200); 
+  scale(0.5);
+  rotateY(r); 
+  rotateZ(r);
+  sphere(40);
+  translate(20, 50, 0);
+  sphere(50);
+  translate(40, 50, 0);
+  sphere(60);
+  translate(10, 50, 0);
+  sphere(70);
+  rotateZ(r);
+  translate(50, 50, 0);
+  sphere(80);
+  translate(10, 50, 0);
+  sphere(90);
+  translate(100, 50, 0);
+  sphere(100);
+  translate(10, 50, 0);
+  sphere(200);
+  translate(50, 50, 0);
+  sphere(250);
+  box(350);
+  popMatrix();
+
+
+
+
 pushMatrix();
 fill(255, 255, 255);
 translate(-600, -400, 0); 
